@@ -7,7 +7,7 @@ function soma(num1, num2){
 var total = soma(1,2) + 5
 
 // Qual o valor atualizado dessa variável?
-console.log(total)
+console.log(total) //8
 
 // Declare uma nova variável, sem valor.
 var newVar;
@@ -23,7 +23,7 @@ function adicionarValor(){
 }
 
 // Invoque a função criada acima.
-console.log(adicionarValor())
+adicionarValor() //O valor da variável agora é 2
 
 // Qual o retorno da função? (Use comentários de bloco).
 /**
@@ -46,13 +46,13 @@ function novaFuncao(arg1, arg2, arg3){
 }
 
 // Invoque a função criada acima, passando só dois números como argumento.
-console.log(novaFuncao(1,2))
+novaFuncao(1,2) //Preencha todos os valores corretamente!
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 //Preencha todos os valores corretamente!
 
 // Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
-console.log(novaFuncao(1,2,3))
+novaFuncao(1,2,3) //8
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 //8
@@ -91,11 +91,11 @@ function testeLogico(arg1, arg2, arg3){
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-console.log(testeLogico()) //false
+testeLogico() //false
 
-console.log(testeLogico(1)) //1
+testeLogico(1) //1
 
-console.log(testeLogico(1,2)) //3
+testeLogico(1,2) //3
 
-console.log(testeLogico(1,2,3)) //3
+testeLogico(1,2,3) //3
 
